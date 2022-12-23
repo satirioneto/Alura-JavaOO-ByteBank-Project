@@ -11,11 +11,16 @@ public class TestReferencias {
         Designer designer = new Designer();
         designer.setSalario(2000);
 
+        Funcionario temporario = new Temporario();
+        temporario.setSalario(1000);
+
+
         ControleBonificacao controleBonificacao = new ControleBonificacao();
 
         controleBonificacao.registra(gerente);
         controleBonificacao.registra(editorVideo);
         controleBonificacao.registra(designer);
+        controleBonificacao.registra(temporario);
 
         System.out.println(controleBonificacao.getSoma());
     }

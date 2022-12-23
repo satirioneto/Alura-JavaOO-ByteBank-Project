@@ -9,6 +9,7 @@ public class ControleBonificacao {
     }
 
     public double getSoma() {
+        System.out.printf("\nTotal de bonificação para funcionários: \nR$ ");
         return soma;
     }
 }
