@@ -51,7 +51,7 @@ public class Main {
                 // SAQUE
                 case 3:
                     System.out.println("Seu saldo bancério é: R$ " + contaDoPaulo.getSaldo());
-                    System.out.println("Quanto deseja sacar? \nR$ ");
+                    System.out.printf("Quanto deseja sacar? \nR$ ");
                     contaDoPaulo.saca(sc.nextDouble());
                     System.out.println("Seu saldo atual é de : R$ " + contaDoPaulo.getSaldo());
                     break;
