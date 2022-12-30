@@ -3,6 +3,7 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular = new Cliente();
+
     // STATIC VARIABLE who will receive the total number of classes [Conta] created
     private static int total;
 
