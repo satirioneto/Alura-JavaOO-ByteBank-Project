@@ -1,6 +1,14 @@
 public class ContaCorrente extends Conta{
-    // Constructor with <super> heritage of class <Conta>
+    // Construtor com <super> herdando da classe <Conta()>
     public ContaCorrente(int agencia, int numero) {
         super(agencia, numero);
+    }
+
+    @Override
+    //Adiciona novas características ao método saca original
+    public boolean saca(double valor) {
+        System.out.println("Chama do método Override na ContaCorrente");
+        double valorASacar = valor + 0.2;
+        return super.saca(valorASacar);
     }
 }
