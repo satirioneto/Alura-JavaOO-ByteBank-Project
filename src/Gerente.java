@@ -2,9 +2,9 @@ public class Gerente extends Funcionario {
     private int senha;
 
     public double getBonificacao() {
-        System.out.println("Chamando método de bonificação do Gerente = (10% DO SALARIO) + SALARIO ");
+        System.out.println("Chamando método de bonificação do Gerente = 1 SALARIO ");
         // The <super> keyword is used similarly to <this> keyword but references the attribute in superclass
-        return super.getBonificacao() + super.getSalario();
+        return super.getSalario();
     }
 
     public void setSenha(int senha) {

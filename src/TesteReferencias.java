@@ -23,5 +23,7 @@ public class TesteReferencias {
         controleBonificacao.registra(temporario);
 
         System.out.println(controleBonificacao.getSoma());
+
+
     }
 }

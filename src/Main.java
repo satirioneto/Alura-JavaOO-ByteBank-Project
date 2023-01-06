@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-    // teste
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -18,8 +17,8 @@ public class Main {
         }
 
 
-        Conta contaDoPaulo = new Conta(agencia, numero);
-        Conta contaDaAna = new Conta(123, 12321);
+        Conta contaDoPaulo = new ContaCorrente(agencia, numero);
+        Conta contaDaAna = new ContaPoupanca(123, 12321);
 
 
         int opcao = 0;

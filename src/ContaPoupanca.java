@@ -5,6 +5,11 @@ public class ContaPoupanca extends Conta{
     }
 
     @Override
+    public void deposita(double valor) {
+        super.saldo += valor;
+    }
+
+    @Override
     //Adiciona novas características ao método saca original
     public boolean saca(double valor) {
         System.out.println("Chama do método Override na ContaPoupanca");
