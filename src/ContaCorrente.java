@@ -1,4 +1,4 @@
-public class ContaCorrente extends Conta{
+public class ContaCorrente extends Conta {
     // Construtor com <super> herdando da classe <Conta()>
     public ContaCorrente(int agencia, int numero) {
         super(agencia, numero);
@@ -6,7 +6,7 @@ public class ContaCorrente extends Conta{
 
     @Override
     public void deposita(double valor) {
-        super.saldo += + valor;
+        super.saldo += +valor;
     }
 
     @Override
